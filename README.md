@@ -55,42 +55,41 @@ password_tester/
 
 ### 1️⃣ Clone the Repository
 
-```bash
+```
 git clone https://github.com/your-username/password-strength-tester.git
 cd password-strength-tester
+```
 
 2️⃣ (Optional) Create and Activate a Virtual Environment
-bash
-Copy
-Edit
+```
 python -m venv venv
 source venv/bin/activate  # On Linux / macOS
 venv\Scripts\activate     # On Windows
-3️⃣ Install Requirements
-(No external libraries are strictly required, but you can use colorama for colored output.)
+```
 
-bash
-Copy
-Edit
+3️⃣ Install Requirements
+
+(No external libraries are strictly required, but you can use colorama for colored output.)
+```
 pip install colorama
+```
 4️⃣ Run the App
-bash
-Copy
-Edit
+
+```
 python tester.py
+
+```
+
+
 ✨ Example Usage
-yaml
-Copy
-Edit
+
 === Password Strength Tester ===
 Enter your password: Welcome123!
 
 Result:
 ⚠️ Weak password:
 - Too short: must be at least 12 characters.
-vbnet
-Copy
-Edit
+
 === Password Strength Tester ===
 Enter your password: Str0ng!Passw0rd2024
 
