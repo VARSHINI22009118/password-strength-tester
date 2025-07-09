@@ -1,10 +1,15 @@
 # 🔐 Password Strength Tester
 
+## Aim
+
 A simple **Python command-line app** that tests the strength of user passwords using OWASP-style rules and a list of known weak passwords.
 
 This project is designed to promote good cybersecurity practices by helping users choose strong, secure passwords.
 
----
+## 📄 Requirements:
+
+Python 3.6+
+Text file with weak passwords (weak_passwords.txt)
 
 ## 📌 Features
 
@@ -21,7 +26,6 @@ This project is designed to promote good cybersecurity practices by helping user
 
 ✅ Simple and lightweight — runs in any terminal
 
----
 
 ## 💻 How It Works
 
@@ -34,7 +38,7 @@ This project is designed to promote good cybersecurity practices by helping user
    - ✅ *"Your password is strong!"* if all tests pass.
    - ⚠️ *Detailed issues* if the password is weak.
 
----
+
 
 ## 🗂️ Project Structure
 
@@ -49,7 +53,7 @@ password_tester/
 - `tester.py` – The main Python script.
 - `weak_passwords.txt` – A list of known weak passwords.
 
----
+
 
 ## 🛠️ How to Use
 
@@ -95,7 +99,7 @@ Enter your password: Str0ng!Passw0rd2024
 
 Result:
 ✅ Your password is strong!
-📄 Requirements
-Python 3.6+
 
-Text file with weak passwords (weak_passwords.txt)
+
+## Result 
+The strength of the password you entered has been evaluated successfully, ensuring it meets all defined security criteria and providing you with clear feedback to help you adopt safer, stronger passwords in line with recommended cybersecurity practices.
